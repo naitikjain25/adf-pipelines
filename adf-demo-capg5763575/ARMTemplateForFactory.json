@@ -317,7 +317,7 @@
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/pipeline1')]",
+			"name": "[concat(parameters('factoryName'), '/3 Customer db2blob PL')]",
 			"type": "Microsoft.DataFactory/factories/pipelines",
 			"apiVersion": "2018-06-01",
 			"properties": {
