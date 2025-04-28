@@ -11,6 +11,12 @@
 		"BlobStorageProduct_connectionString": {
 			"value": ""
 		},
+		"AdvWorksDbs_password": {
+			"value": ""
+		},
+		"BlobStorageCustomer_connectionString": {
+			"value": ""
+		},
 		"AdvWorksDb_properties_typeProperties_server": {
 			"value": "server65245.database.windows.net"
 		},
@@ -18,6 +24,15 @@
 			"value": "sqlnaitik65624"
 		},
 		"AdvWorksDb_properties_typeProperties_userName": {
+			"value": "naitik"
+		},
+		"AdvWorksDbs_properties_typeProperties_server": {
+			"value": "server65245.database.windows.net"
+		},
+		"AdvWorksDbs_properties_typeProperties_database": {
+			"value": "sqlnaitik65624"
+		},
+		"AdvWorksDbs_properties_typeProperties_userName": {
 			"value": "naitik"
 		},
 		"containerUri": {
