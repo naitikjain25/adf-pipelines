@@ -17,6 +17,9 @@
 		"BlobStorageProduct_connectionString": {
 			"value": ""
 		},
+		"ProductBlobStorage_connectionString": {
+			"value": ""
+		},
 		"AdvWorksDb_properties_typeProperties_server": {
 			"value": "server65245.database.windows.net"
 		},

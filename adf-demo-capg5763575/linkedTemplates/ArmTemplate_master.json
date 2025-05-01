@@ -23,6 +23,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'BlobStorageProduct'"
 		},
+		"ProductBlobStorage_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'ProductBlobStorage'"
+		},
 		"AdvWorksDb_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "server65245.database.windows.net"
@@ -85,6 +89,9 @@
 					},
 					"BlobStorageProduct_connectionString": {
 						"value": "[parameters('BlobStorageProduct_connectionString')]"
+					},
+					"ProductBlobStorage_connectionString": {
+						"value": "[parameters('ProductBlobStorage_connectionString')]"
 					},
 					"AdvWorksDb_properties_typeProperties_server": {
 						"value": "[parameters('AdvWorksDb_properties_typeProperties_server')]"
