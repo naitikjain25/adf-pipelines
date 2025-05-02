@@ -29,6 +29,9 @@
 		"TaxiTripdb_password": {
 			"value": ""
 		},
+		"TripAggregateBlob_connectionString": {
+			"value": ""
+		},
 		"ADLSGen2_properties_typeProperties_url": {
 			"value": "https://stniatik53434.dfs.core.windows.net/"
 		},
