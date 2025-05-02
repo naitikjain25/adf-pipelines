@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "adf-demo-capg5763575"
 		},
+		"ADLSGen2_accountKey": {
+			"value": ""
+		},
+		"ADLSTripData_accountKey": {
+			"value": ""
+		},
 		"AdvWorksDb_password": {
 			"value": ""
 		},
@@ -19,6 +25,15 @@
 		},
 		"ProductBlobStorage_connectionString": {
 			"value": ""
+		},
+		"TaxiTripdb_password": {
+			"value": ""
+		},
+		"ADLSGen2_properties_typeProperties_url": {
+			"value": "https://stniatik53434.dfs.core.windows.net/"
+		},
+		"ADLSTripData_properties_typeProperties_url": {
+			"value": "https://adlstripdata44324.dfs.core.windows.net/"
 		},
 		"AdvWorksDb_properties_typeProperties_server": {
 			"value": "server65245.database.windows.net"
@@ -36,6 +51,15 @@
 			"value": "sqlnaitik65624"
 		},
 		"AdvWorksDbs_properties_typeProperties_userName": {
+			"value": "naitik"
+		},
+		"TaxiTripdb_properties_typeProperties_server": {
+			"value": "server65245.database.windows.net"
+		},
+		"TaxiTripdb_properties_typeProperties_database": {
+			"value": "taxi-data"
+		},
+		"TaxiTripdb_properties_typeProperties_userName": {
 			"value": "naitik"
 		}
 	}
