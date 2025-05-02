@@ -1,0 +1,19 @@
+{
+	"name": "FlipkartParquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FlipKartBlob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "flipkartdata"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
