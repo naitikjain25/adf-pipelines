@@ -31,6 +31,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'BlobStorageProduct'"
 		},
+		"FlipKartBlob_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'FlipKartBlob'"
+		},
 		"ProductBlobStorage_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'ProductBlobStorage'"
@@ -42,6 +46,10 @@
 		"TripAggregateBlob_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'TripAggregateBlob'"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
 		},
 		"ADLSGen2_properties_typeProperties_url": {
 			"type": "string",
@@ -132,6 +140,9 @@
 					"BlobStorageProduct_connectionString": {
 						"value": "[parameters('BlobStorageProduct_connectionString')]"
 					},
+					"FlipKartBlob_connectionString": {
+						"value": "[parameters('FlipKartBlob_connectionString')]"
+					},
 					"ProductBlobStorage_connectionString": {
 						"value": "[parameters('ProductBlobStorage_connectionString')]"
 					},
@@ -140,6 +151,9 @@
 					},
 					"TripAggregateBlob_connectionString": {
 						"value": "[parameters('TripAggregateBlob_connectionString')]"
+					},
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
 					"ADLSGen2_properties_typeProperties_url": {
 						"value": "[parameters('ADLSGen2_properties_typeProperties_url')]"
@@ -196,6 +210,26 @@
 			},
 			"dependsOn": [
 				"[resourceId('Microsoft.Resources/deployments', 'adf-demo-capg5763575_ArmTemplate_0')]"
+			]
+		},
+		{
+			"name": "adf-demo-capg5763575_ArmTemplate_2",
+			"type": "Microsoft.Resources/deployments",
+			"apiVersion": "2024-03-01",
+			"properties": {
+				"mode": "incremental",
+				"templateLink": {
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_2.json', parameters('containerSasToken'))]",
+					"contentVersion": "1.0.0.0"
+				},
+				"parameters": {
+					"factoryName": {
+						"value": "[parameters('factoryName')]"
+					}
+				}
+			},
+			"dependsOn": [
+				"[resourceId('Microsoft.Resources/deployments', 'adf-demo-capg5763575_ArmTemplate_1')]"
 			]
 		}
 	]

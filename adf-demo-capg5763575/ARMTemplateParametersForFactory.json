@@ -23,6 +23,9 @@
 		"BlobStorageProduct_connectionString": {
 			"value": ""
 		},
+		"FlipKartBlob_connectionString": {
+			"value": ""
+		},
 		"ProductBlobStorage_connectionString": {
 			"value": ""
 		},
@@ -30,6 +33,9 @@
 			"value": ""
 		},
 		"TripAggregateBlob_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
 		"ADLSGen2_properties_typeProperties_url": {
